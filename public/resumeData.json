@@ -4,7 +4,7 @@
     "occupation": "Founder, Digital Cube",
     "description": "I'm a Flutter Developer ",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am GEORGE! I've been coding for approximately 2 years now. As a Mobile App Developer I've worked with both startups and medium corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others solve their simple and complex problem with technology. With this passion, I have now built some working prototypes of mobile applications across the my country, Ghana. I seek deliver REAL VALUE by solving REAL WORLD problems with my projects to help people solve the problems of their world.",
+    "bio": "Hi there! I am GEORGE! I've been coding for approximately 2 years now. As a Mobile App Developer I've worked with both startups and medium corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others solve their simple and complex problem with technology. With this passion, I have now, with the help of my capable partners, built some working prototypes of mobile applications across the my country, Ghana. I seek deliver REAL VALUE by solving REAL WORLD problems with my projects to help people solve the problems of their world.",
     "contactmessage": "Get in touch with me to help you solve your problems with TECHNOLOGY!",
     "email": "georonathan47@gmail.com",
     "phone": "+233 559739718",
@@ -39,7 +39,7 @@
     "education": [
       {
         "school": "Koforidua Technical University - Ghana",
-        "degree": "Higher National Diplomat, Computer Networking",
+        "degree": "Higher National Diplomat, Computer Network Management",
         "started": "September 2018",
         "description": "Still in school."
       }
@@ -54,12 +54,16 @@
     ],
     "skills": [
       {
+        "name": "Git",
+        "level": "15%"
+      },
+      {
         "name": "ReactJs",
         "level": "45%"
       },
       {
         "name" : "Java",
-        "level": "55%"
+        "level": "50%"
       },
       {
         "name": "Visual Basic",
@@ -81,14 +85,26 @@
       {
         "title": "Netflix Clone (React JS)",
         "category": "Web Application",
-        "image": "images/netflix.jpg",
+        "image": "netflix.png",
         "url": "https://github.com/georonathan47/netflix_clone"
       },
       {
         "title": "Number Trivia App (Flutter)",
         "category": "Mobile App",
-        "image": "",
+        "image": "trivia.png",
         "url": "https://github.com/georonathan47/Number_Trivia"
+      },
+      {
+        "title": "Hostel App (Flutter)",
+        "category": "Mobile Application",
+        "image": ".jpg",
+        "url": "https://github.com/PGC-services/Hostel_App"
+      },
+      {
+        "title": "7Columns",
+        "category": "Mobile App",
+        "image": "7Columns.png",
+        "url": "https://github.com/georonathan47/7Columns"
       }
     ]
   },

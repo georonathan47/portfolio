@@ -67,9 +67,12 @@ const Header = ({ data }) => {
           <h1 className="responsive-headline">
             <TypeWriter 
             onInit={(typing) => {
-              typing.typeString("Hey there! I'm Osafo-Osei Jonathan GEORGE.")
+              typing.typeString("Hello! I'm Osafo-Osei Jonathan GEORGE.")
               .pauseFor(3500)
               .deleteAll()
+              .pauseFor(1000)
+              typing.typeString("This is something small about me...")
+              .pauseFor(5000)
               .start()
             }}
             /> 
