@@ -1,0 +1,41 @@
+[debug] [2021-03-25T13:42:08.529Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T13:42:08.539Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-03-25T13:42:08.541Z] CLI Version:   9.3.0
+[debug] [2021-03-25T13:42:08.541Z] Platform:      linux
+[debug] [2021-03-25T13:42:08.542Z] Node Version:  v12.18.2
+[debug] [2021-03-25T13:42:08.645Z] Time:          Thu Mar 25 2021 13:42:08 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-03-25T13:42:08.646Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T13:42:08.646Z] 
+[debug] [2021-03-25T13:42:08.761Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-25T13:42:08.764Z] > authorizing via signed-in user
+[debug] [2021-03-25T13:42:08.766Z] [iam] checking project portfolio-ebc39 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-25T13:42:08.815Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-ebc39:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-03-25T13:42:08.949Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. getaddrinfo EAI_AGAIN cloudresourcemanager.googleapis.com
+[debug] [2021-03-25T13:42:08.955Z] > refreshing access token with scopes: []
+[debug] [2021-03-25T13:42:08.956Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-25T13:42:08.981Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-03-25T13:42:09.021Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/init/features/hosting/github.js:11:16)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+[error] 
+[error] Error: Failed to get Firebase project portfolio-ebc39. Please make sure the project exists and your account has permission to access it.

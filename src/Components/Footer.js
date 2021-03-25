@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Footer = ({ data }) => {
@@ -22,9 +23,11 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+              <a title="PAPA" href="#">
+                GEORGE
               </a>
+              {
+              /*copyright info <p> </p> */}
             </li>
           </ul>
         </div>

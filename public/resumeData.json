@@ -4,15 +4,16 @@
     "occupation": "Founder, Digital Cube",
     "description": "I'm a Flutter Developer ",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am GEORGE! I've been coding for approximately 2 years now. As a Mobile App Developer I've worked with both startups and medium corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others solve their simple and complex problem with technology. With this passion, I have now, with the help of my capable partners, built some working prototypes of mobile applications across the my country, Ghana. I seek deliver REAL VALUE by solving REAL WORLD problems with my projects to help people solve the problems of their world.",
+    "bio": "Hi there! I am GEORGE! I've been coding for approximately 2 years now. As a Mobile App Developer I've worked with both startups and medium corporations to help build, scale & integrate technology into their companies and businesses. Along the journey, I realised my passion existed in helping others solve their simple and complex problems with technology. With this passion, I have now, with the help of my capable partners, built some working prototypes of mobile applications across the country. I seek to deliver REAL VALUE by adding catchy features to solve REAL WORLD problems with my projects to help people in the society.",
     "contactmessage": "Get in touch with me to help you solve your problems with TECHNOLOGY!",
     "email": "georonathan47@gmail.com",
     "phone": "+233 559739718",
+    "phone2": "+233 201154679",
     "address": {
       "street": "Junction 2",
       "city": "Koforidua",
       "state": "Eastern Region",
-      "zip": "EN 111 2486"
+      "zip": " EN 111 2486"
     },
     "website": "https://www.papareact.com/course",
     "resumedownload": "http://papareact.com",
@@ -38,6 +39,12 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
+        "school": "Prempeh College, Kumasi - Ghana",
+        "degree": "General Arts",
+        "started": "September 2015 - April 2018",
+        "description": "Graduated with fairly good grades and shifted my focus to technology..."
+      },
+      {
         "school": "Koforidua Technical University - Ghana",
         "degree": "Higher National Diplomat, Computer Network Management",
         "started": "September 2018",
@@ -49,7 +56,7 @@
         "company": "Digital Cube",
         "title": "Founder and CEO",
         "years": "May 2020 - Present",
-        "description": "Using technology to solve basic and complex problems in and around the society."
+        "description": "Using technology to solve basic and complex problems in and around the society. Currently unregistered"
       }
     ],
     "skills": [
@@ -58,24 +65,32 @@
         "level": "15%"
       },
       {
+        "name": "Javascript",
+        "level": "30%"
+      },
+      {
         "name": "ReactJs",
         "level": "45%"
       },
       {
         "name" : "Java",
-        "level": "50%"
+        "level": "45%"
+      },
+      {
+        "name": "HTML & CSS",
+        "level": "45%"
       },
       {
         "name": "Visual Basic",
-        "level": "70%"
+        "level": "65%"
       },
       {
         "name": "MySQL",
-        "level": "70%"
+        "level": "65%"
       },
       {
         "name": "Mobile App Development with Flutter",
-        "level": "75%"
+        "level": "68%"
       }
     ]
   },
@@ -111,12 +126,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "George likes to go all out and put in his maximum best until he has attained his final product...",
+        "user": "Asare Prince Kofi"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Working with George has been AWESOME, he makes complex problems seem so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Mrs. Vivian Elelakpodia"
       }
     ]
   }

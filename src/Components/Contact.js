@@ -13,6 +13,7 @@ const Contact = ({ data }) => {
     var state = data.address.state;
     var zip = data.address.zip;
     var phone = data.phone;
+    var phone2 = data.phone2;
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
   }
@@ -119,7 +120,7 @@ const Contact = ({ data }) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>d Phone</h4>
             <p className="address">
               {contactName}
               <br />
@@ -130,6 +131,7 @@ const Contact = ({ data }) => {
               {city}, {state} {zip}
               <br />
               <span>{phone}</span>
+              <span>{phone2}</span>
             </p>
           </div>
         </aside>

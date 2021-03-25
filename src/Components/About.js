@@ -10,6 +10,7 @@ const About = ({ data }) => {
     var state = data.address.state;
     var zip = data.address.zip;
     var phone = data.phone;
+    var phone2 = data.phone2;
     var email = data.email;
     //var resumeDownload = data.resumedownload;
   }
@@ -42,6 +43,7 @@ const About = ({ data }) => {
                 </span>
                 <br />
                 <span>{phone}</span>
+                <span>{phone2}</span>
                 <br />
                 <span>{email}</span>
               </p>
