@@ -57,23 +57,21 @@
         "title": "Founder and CEO",
         "years": "May 2020 - Present",
         "description": "Using technology to solve basic and complex problems in and around the society. Currently unregistered"
+      },
+      {
+        "company": "Casantey Business Solutions Group",
+        "title": "Mobile App Developer",
+        "years": "October 2021 - Present",
+        "description": "Currently working on building mobile apps"
       }
     ],
     "skills": [
       {
         "name": "Git",
-        "level": "15%"
-      },
-      {
-        "name": "Javascript",
-        "level": "30%"
+        "level": "35%"
       },
       {
         "name": "ReactJs",
-        "level": "45%"
-      },
-      {
-        "name" : "Java",
         "level": "45%"
       },
       {
@@ -85,12 +83,16 @@
         "level": "65%"
       },
       {
+        "name": "Firebase",
+        "level": "65%"
+      },
+      {
         "name": "MySQL",
         "level": "65%"
       },
       {
         "name": "Mobile App Development with Flutter",
-        "level": "68%"
+        "level": "70%"
       }
     ]
   },
@@ -130,9 +132,10 @@
         "user": "Asare Prince Kofi"
       },
       {
-        "text": "Working with George has been AWESOME, he makes complex problems seem so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Mrs. Vivian Elelakpodia"
+        "text": "George is a great developer and a great team player. He is a hard worker and a great team player... He is also fun to be around with.",
+        "user": "Timothy Awarika A."
       }
+      
     ]
   }
 }
