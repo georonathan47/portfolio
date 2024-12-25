@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+/* tailwind.css */
+@screen sm {
+  .mt-10-sm {
+    margin-top: 10px;
+  }
+}
+
+/* Style for the gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Style for each image */
+.gallery img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for each image */
+.gallery img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.group.active > .nav-indicator {
+  width: 4rem;
+  background-color: rgb(226 232 240 / 1);
+}
+
+.group.active > .nav-text {
+  color: rgb(226 232 240 / 1);
+}
+
+.resume-button, .blog-button{
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.resume-button:hover, .blog-button:hover{
+  box-shadow: 3px 3px 0 0 #64ffda;
+  transform: translate(-4px, -4px);
+  outline: none;
+}
