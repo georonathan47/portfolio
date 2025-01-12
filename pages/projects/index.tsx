@@ -22,7 +22,7 @@ const Project = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://dellshare.com"
                       target="_blank"
                       rel="noreferrer"
@@ -75,7 +75,7 @@ const Project = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://apex4u.com"
                       target="_blank"
                       rel="noreferrer"
@@ -129,7 +129,7 @@ const Project = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://strataspot.com.au"
                       target="_blank"
                       rel="noreferrer"
@@ -183,7 +183,7 @@ const Project = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://transcomdigital.com"
                       target="_blank"
                       rel="noreferrer"
@@ -240,11 +240,11 @@ const Project = () => {
               href="/archive"
             >
               <span>
-                <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                <span className="border-b border-transparent pb-px transition group-hover:border-amber-300 motion-reduce:transition-none">
                   View Full Project{" "}
                 </span>
                 <span className="whitespace-nowrap">
-                  <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                  <span className="border-b border-transparent pb-px transition group-hover:border-amber-300 motion-reduce:transition-none">
                     Archive
                   </span>
                   <svg

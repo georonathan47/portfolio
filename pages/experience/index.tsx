@@ -10,7 +10,7 @@ const Experience = () => {
       >
         <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
           <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-            Experience
+            Services
           </h2>
         </div>
         <div>
@@ -39,7 +39,7 @@ const Experience = () => {
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                         href="https://www.hogarth.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -81,27 +81,27 @@ const Experience = () => {
                     aria-label="Technologies used"
                   >
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         C#
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         .Net Web API
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MS SQL
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Angular
                       </div>
                     </li>
@@ -132,7 +132,7 @@ const Experience = () => {
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                         href="https://www.asthait.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -195,7 +195,7 @@ const Experience = () => {
                   >
                     <li className="mr-4">
                       <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-amber-300 focus-visible:text-amber-300"
                         href="https://apex4u.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -205,7 +205,7 @@ const Experience = () => {
                     </li>
                     <li className="mr-4">
                       <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-amber-300 focus-visible:text-amber-300"
                         href="https://www.strataspot.com.au/"
                         target="_blank"
                         rel="noreferrer"
@@ -215,7 +215,7 @@ const Experience = () => {
                     </li>
                     <li className="mr-4">
                       <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-amber-300 focus-visible:text-amber-300"
                         href="https://transcomdigital.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -225,7 +225,7 @@ const Experience = () => {
                     </li>
                     <li className="mr-4">
                       <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-amber-300 focus-visible:text-amber-300"
                         href="https://www.punahou.edu/luke-center-for-public-service/programs-and-initiatives/global-aloha"
                         target="_blank"
                         rel="noreferrer"
@@ -239,52 +239,52 @@ const Experience = () => {
                     aria-label="Technologies used"
                   >
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         C#
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Framework
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         .Net Web API
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MSSQL
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         PostgreSQL
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MongoDB
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JavaScript
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         TypeScript
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         React
                       </div>
                     </li>
@@ -315,7 +315,7 @@ const Experience = () => {
                   <h3 className="font-medium leading-snug text-slate-200">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                         href="https://www.asthait.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -360,27 +360,27 @@ const Experience = () => {
                     aria-label="Technologies used"
                   >
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MSSQL
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         GIT
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JavaScript
                       </div>
                     </li>
                     <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         React
                       </div>
                     </li>
@@ -397,11 +397,11 @@ const Experience = () => {
               target="_blank"
             >
               <span>
-                <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                <span className="border-b border-transparent pb-px transition group-hover:border-amber-300 motion-reduce:transition-none">
                   View Full{" "}
                 </span>
                 <span className="whitespace-nowrap">
-                  <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                  <span className="border-b border-transparent pb-px transition group-hover:border-amber-300 motion-reduce:transition-none">
                     Resume
                   </span>
                 </span>

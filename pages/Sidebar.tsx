@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
-import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const PhoneStyles = {
@@ -10,34 +10,35 @@ const Header = () => {
   return (
     <>
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-16">
+        <div className="background-image: linear-gradient(to left, var(--tw-gradient-stops))">
+          <Image
+            alt="logo"
+            width={200}
+            height={48}
+            loading="lazy"
+            src="/images/blogs/logo.png"
+            className="rounded transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+          />
+        </div>
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-            <ScrollLink
-              activeClass="active"
-              to="/"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              George Osafo-Osei Jonathan
+            <ScrollLink activeClass="active" to="/" spy={true} smooth={true} duration={500}>
+              Beckstec Solutions
             </ScrollLink>
           </h1>
-          <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-            Senior Software Engineer
-          </h2>
+          <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Solutions Center</h2>
           <i>Accra, Ghana</i>
           <p className="mt-2 lg:max-w-sm leading-relaxed text-justify">
-            I build accessible, inclusive products and digital experiences for
-            the mobile phones (both Android and iOS). I enjoy taking on new challenges and collaborating with
-            other engineers to create innovative and impactful products that
-            solve real-world problems.
+            At Beckstec Solutions, our mission is to harness the power of technology to empower businesses, organizations,
+            and individuals to achieve their goals. We strive to build lasting relationships with our clients, providing them
+            with expert guidance, support, and solutions that exceed expectations
           </p>
 
-          <div className="mt-4 max-w-xs flex gap-4">
-     
+          {/* <div className="mt-4 max-w-xs flex gap-4">
+
             <Link
               href="/resume/Resume_Of_Ismael_Miah.pdf"
-              className="resume-button flex items-center rounded uppercase border border-teal-300 px-4 py-2 text-xs text-teal-300 font-medium"
+              className="resume-button flex items-center rounded uppercase border border-amber-300 px-4 py-2 text-xs text-amber-300 font-medium"
               aria-label="Download CV"
               target="_blank"
             >
@@ -59,7 +60,7 @@ const Header = () => {
               </svg>{" "}
               Resume / CV
             </Link>
-          </div>
+          </div> */}
           <nav className="nav hidden lg:block" aria-label="In-page jump links">
             <ul className="mt-8 w-max">
               <li>
@@ -145,11 +146,7 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <ul
-          className="ml-1 m-0 flex items-center"
-          style={PhoneStyles}
-          aria-label="Social media"
-        >
+        <ul className="ml-1 m-0 flex items-center" style={PhoneStyles} aria-label="Social media">
           <li className="mr-5 text-xs">
             <a
               className="block hover:text-white"
@@ -169,12 +166,7 @@ const Header = () => {
             </a>
           </li>
           <li className="mr-5 text-xs">
-            <a
-              className="block hover:text-white"
-              href="https://twitter.com/ismail96_12"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="block hover:text-white" href="https://twitter.com/ismail96_12" target="_blank" rel="noreferrer">
               <span className="sr-only">Twitter</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -210,12 +202,7 @@ const Header = () => {
             </a>
           </li>
           <li className="mr-5 text-xs">
-            <a
-              className="block hover:text-white"
-              href="https://github.com/ismaelmiah"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="block hover:text-white" href="https://github.com/ismaelmiah" target="_blank" rel="noreferrer">
               <span className="sr-only">GitHub</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -229,12 +216,7 @@ const Header = () => {
             </a>
           </li>
           <li className="mr-5 text-xs">
-            <a
-              className="block hover:text-white"
-              href="https://devismael.substack.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="block hover:text-white" href="https://devismael.substack.com/" target="_blank" rel="noreferrer">
               <span className="sr-only">Substack</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

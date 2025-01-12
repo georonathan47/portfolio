@@ -10,20 +10,20 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>George Jonathan&apos;s Portfolio</title>
+          <title>Beckstec Solution&apos;s Portfolio</title>
           <meta
             property="og:description"
-            content="George Osafo-Osei Jonathan is a software engineer who builds accessible,
+            content="Beckstec Solutions is a solutions center which builds accessible,
   inclusive products and digital experiences for the all."
           />
           <meta property="og:image" content="/images/Thumbnail.jpeg" />
           <meta property="og:image:type" content="image/jpeg" />
           <meta property="og:image:alt" content="Summary Image" />
-          <meta property="og:title" content="George Osafo-Osei Jonathan" />
+          <meta property="og:title" content="Beckstec Solutions" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta property="og:site_name" content="George Jonathan's Portfolio" />
+          <meta property="og:site_name" content="Beckstec Solutions' Portfolio" />
           <meta name="twitter:image:alt" content="Fullstack Engineer" />
           <link rel="shortcut icon" href="/favicon/apple-touch-icon.png" />
           <link rel="favicon-16x16" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
@@ -38,7 +38,7 @@ export default function Home() {
       <Project />
       <Education />
       <Certifications />
-      <div className="mt-20">© {new Date().getFullYear()} George Osafo-Osei Jonathan. Made with ♥ in Accra, Ghana.</div>
+      <div className="mt-20">© {new Date().getFullYear()} Beckstec Solutions. Made with ♥ in Accra, Ghana.</div>
     </>
   );
 }

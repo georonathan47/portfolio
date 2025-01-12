@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     let focus = document.getElementById("pointer-events");
     window.addEventListener("mousemove", function (e) {
       if (focus != null) {
-        focus.style.background = `radial-gradient(400px at ${e.clientX}px ${e.clientY}px, rgba(29, 78, 216, 0.25), transparent 80%)`;
+        focus.style.background = `radial-gradient(400px at ${e.clientX}px ${e.clientY}px, rgba(216, 163, 29, 0.25), transparent 80%)`;
       }
     });
   }, []);
@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
         className="pointer-events-none fixed inset-0 z-300 transition duration-300"
         style={{
           background:
-            "radial-gradient(400px at 750px 505px, rgba(29, 78, 216, 0.25), transparent 80%)",
+            "radial-gradient(400px at 750px 505px, rgba(216, 163, 29, 0.25), transparent 80%)",
         }}
       ></div>
       <Layout>

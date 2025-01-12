@@ -6,7 +6,7 @@ const Archive = () => {
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:py-24">
           <Link
-            className="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300"
+            className="group mb-2 inline-flex items-center font-semibold leading-tight text-amber-300"
             href="/"
           >
             <svg
@@ -59,7 +59,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://dellshare.com"
                         target="_blank"
                         rel="noreferrer"
@@ -96,22 +96,22 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .NET Framework
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MS SQL Server
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Redis
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         AngularJS
                       </div>
                     </li>
@@ -121,7 +121,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://dellshare.com"
                         target="_blank"
                         rel="noreferrer"
@@ -159,7 +159,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://apex4u.com"
                         target="_blank"
                         rel="noreferrer"
@@ -196,32 +196,32 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .NET 6.0
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MongoDB
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Redis
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Algolia
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         React
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         TypeScript
                       </div>
                     </li>
@@ -231,7 +231,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://apex4u.com"
                         target="_blank"
                         rel="noreferrer"
@@ -269,7 +269,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://www.punahou.edu/luke-center-for-public-service/programs-and-initiatives/global-aloha"
                         target="_blank"
                         rel="noreferrer"
@@ -307,17 +307,17 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Angular
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core Web API
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         PostgreSQL
                       </div>
                     </li>
@@ -327,7 +327,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://www.punahou.edu/luke-center-for-public-service/programs-and-initiatives/global-aloha"
                         target="_blank"
                         rel="noreferrer"
@@ -365,7 +365,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://transcomdigital.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -403,27 +403,27 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MongoDB
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Redis
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         AWS SQS
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Next JS
                       </div>
                     </li>
@@ -433,7 +433,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://transcomdigital.com/"
                         target="_blank"
                         rel="noreferrer"
@@ -471,7 +471,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://www.strataspot.com.au/"
                         target="_blank"
                         rel="noreferrer"
@@ -508,22 +508,22 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Framework
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MSSQL
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JavaScript
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JQuery
                       </div>
                     </li>
@@ -533,7 +533,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://www.strataspot.com.au/"
                         target="_blank"
                         rel="noreferrer"
@@ -599,22 +599,22 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MSSQL
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JavaScript
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JQuery
                       </div>
                     </li>
@@ -663,7 +663,7 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
@@ -712,22 +712,22 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Asp .Net Core
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         MSSQL
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JavaScript
                       </div>
                     </li>
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         JQuery
                       </div>
                     </li>
@@ -747,7 +747,7 @@ const Archive = () => {
                   <div>
                     <div className="block sm:hidden">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 hover:text-slate-200 focus-visible:text-amber-300 sm:hidden group/link text-base"
                         href="https://sites.google.com/view/ismaelmiah/home/"
                         target="_blank"
                         rel="noreferrer"
@@ -786,7 +786,7 @@ const Archive = () => {
                 <td className="hidden py-4 pr-4 align-top lg:table-cell">
                   <ul className="flex -translate-y-1.5 flex-wrap">
                     <li className="my-1 mr-1.5">
-                      <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                      <div className="flex items-center rounded-full bg-amber-400/10 px-3 py-1 text-xs font-medium leading-5 text-amber-300 ">
                         Google Sites
                       </div>
                     </li>
@@ -796,7 +796,7 @@ const Archive = () => {
                   <ul className="translate-y-1">
                     <li className="mb-1 flex items-center">
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
+                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-amber-300 group/link text-sm"
                         href="https://sites.google.com/view/ismaelmiah/home"
                         target="_blank"
                         rel="noreferrer"

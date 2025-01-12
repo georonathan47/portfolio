@@ -21,7 +21,7 @@ const Education = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://www.beds.ac.uk/"
                       target="_blank"
                       rel="noreferrer"
@@ -96,7 +96,7 @@ const Education = () => {
                 <div className="z-10 sm:order-2 sm:col-span-6">
                   <h3>
                     <a
-                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                      className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-amber-300 focus-visible:text-amber-300  group/link text-base"
                       href="https://daffodilvarsity.edu.bd/"
                       target="_blank"
                       rel="noreferrer"
