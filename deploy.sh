@@ -73,6 +73,8 @@ pm2 delete ${PM2_INSTANCE} || true
 # Start new PM2 process
 pm2 serve build/ $PORT --spa
 
+pm2 restart ${APP_NAME} || pm2 start ${APP_NAME}
+
 # Save PM2 process list and configure startup
 pm2 save
 pm2 startup
