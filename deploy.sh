@@ -60,7 +60,6 @@ npm install
 
 echo -e "${GREEN}Building frontend app ${APP_NAME}...${NC}"
 npm run build
-npm start
 
 # Check if build was successful
 if [ ! -d "out" ]; then
