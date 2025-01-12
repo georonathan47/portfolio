@@ -68,10 +68,10 @@ if [ ! -d "out" ]; then
 fi
 
 # Stop existing PM2 process if running
-pm2 delete "$APP_NAME" || true
+pm2 delete ${PM2_INSTANCE} || true
 
 # Start new PM2 process
-pm2 serve build/ $PORT --name "$APP_NAME" --spa
+pm2 serve build/ $PORT --spa
 
 # Save PM2 process list and configure startup
 pm2 save
